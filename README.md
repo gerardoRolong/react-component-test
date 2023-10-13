@@ -1,8 +1,10 @@
-# React + Vite
+# How to run:  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+run [npm install]  
 
-Currently, two official plugins are available:
+## First run the proxy server to prevent cors errors
+open another terminal and run [cd proxy_server/]  
+run [npm start]  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Then run the react app
+in the other terminal run [npm run dev]

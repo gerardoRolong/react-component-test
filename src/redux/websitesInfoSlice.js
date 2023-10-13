@@ -6,11 +6,6 @@ export const websiteInfoSlice = createSlice({
   reducers: {
     setWebsiteInfo: (state, action) => {
       return state = action.payload
-      // state[title] = {
-      //   url: url,
-      //   status: status
-      // }
-      // state.algo = "aaaaaaaaaaa"
     }
   }
 })
