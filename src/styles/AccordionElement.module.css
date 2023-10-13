@@ -1,0 +1,51 @@
+/* .accordion{
+  display: grid;
+} */
+.accordion-elem {
+  display: grid;
+  width: 100%;
+  background-color: white;
+}
+
+.accordion-elem-content {
+  text-align: left;
+  margin-left: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+.accordion-elem-content > p{
+  background-color: #e0e0e0;
+}
+
+.accordion-elem-title{
+  grid-template-columns: auto auto;
+  display: grid;
+  padding: 0 5px 5px 10px;
+}
+
+.elem-website-title {
+  grid-template-columns: auto;
+  text-align: left;
+  display: grid;
+  gap: 0;
+  padding: 0 0 5px 10px;
+  align-self: start;
+}
+
+.elem-website-title h2 {
+  margin: 0;
+}
+
+.elem-website-status {
+  grid-template-columns: auto;
+  grid-auto-flow: column;
+  display: grid;
+  justify-content: end;
+  gap: 0;
+  padding: 0 0 5px 10px;
+}
+
+.symbol {
+  font-size: 30px;
+  margin: 0;
+}

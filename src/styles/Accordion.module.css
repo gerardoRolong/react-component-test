@@ -1,0 +1,17 @@
+.accordion {
+  background-color: #b8a6a661;
+  display: grid;
+  gap: 20px;
+}
+
+.accordion-container{
+  border: solid 5px;
+  border-color: black;
+  padding: 40px;
+  background-color: #b8a6a661;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
